@@ -8,6 +8,9 @@ public class App {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World");
+		App ap = new App();
+		ap.addItem("Pierre", 23);
+		ap.displayItem("Pierre");
 	}
 	
 	private Map <String,Integer> jaMap= new HashMap<String,Integer>();
